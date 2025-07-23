@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 **Requirements**
 ```
-pythontensorflow>=2.8.0
+tensorflow>=2.8.0
 scikit-learn>=1.0.0
 numpy>=1.21.0
 pandas>=1.3.0
