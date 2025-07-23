@@ -118,12 +118,17 @@ seaborn>=0.11.0
 
 ## 📚 Citation
 ```
-bibtex@article{lee2025microbial,
-  title={Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
-  author={Lee, Solpa and Ahn, Bum Ju and Ha, Juchan and Kim, Anmo J and Park, Hyun-Kyung and Jang, Yongwoo},
-  journal={Sensors and Actuators: B. Chemical},
-  year={2025},
-  doi={10.1016/j.snb.2025.138376}
+@article{LEE2025138376,
+title = {Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
+journal = {Sensors and Actuators B: Chemical},
+pages = {138376},
+year = {2025},
+issn = {0925-4005},
+doi = {https://doi.org/10.1016/j.snb.2025.138376},
+url = {https://www.sciencedirect.com/science/article/pii/S0925400525011529},
+author = {Solpa Lee and Bum Ju Ahn and Juchan Ha and Anmo J Kim and Hyun‑Kyung Park and Yongwoo Jang},
+keywords = {electronic nose, microbial volatile organic compound, infant sepsis, smart incubator, pattern recognition},
+abstract = {In infant incubators, neonatal infections pose critical morbidity and mortality risks, often requiring empirical antibiotic treatments due to time-consuming diagnostic methods, which can lead to potential misuse and antibiotic resistance. To address this challenge, we developed a non-invasive electronic nose system for real-time infection monitoring by identifying pathogens through microbial volatile organic compounds (mVOCs) as an alerting system. The sensor array, optimized using nine specific mVOC chemicals produced by sepsis-causing pathogens, demonstrated effective discrimination among seven pathogens: S. aureus and S. epidermidis (Gram-positive bacteria), E. coli and K. pneumoniae (Gram-negative bacteria), and C. albicans, C. glabrata, and C. parapsilosis (fungi). The electronic nose, employing an LSTM model, achieved 97% classification accuracy under laboratory conditions. Furthermore, the system's quantification ability was validated with R² values exceeding 0.80 for all seven pathogens. When tested in a real-size incubator (155 liters) simulating practical applications, the system achieved an overall accuracy of 85.4% in microbial discrimination. These findings suggest that integrating the electronic nose into a smart incubator could facilitate evidence-based antibiotic prescriptions through real-time, non-invasive infection monitoring.}
 }
 ```
 
