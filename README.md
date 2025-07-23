@@ -43,15 +43,15 @@ TL-ResNet50 - Pre-trained on ImageNet, fine-tuned for pathogen classification
 ## Dataset Specifications
 **Sensor Array**
 
-9 metal oxide sensors (TGS series, MQ series)
-9 mVOC chemicals for pathogen identification
+- 9 metal oxide sensors (TGS series, MQ series)
+- 9 mVOC chemicals for pathogen identification
 Time-series data with 2-second intervals over 60 seconds
 
 ## Target VOCs
 
-Common to all pathogens: Ethanol, 3-methyl-1-butanol, Acetic acid
-Bacterial markers: Formaldehyde, Indole, 2-undecanone
-Fungal markers: 3-octanone, Isobutyl acetate, Cyclohexanone
+- Common to all pathogens: Ethanol, 3-methyl-1-butanol, Acetic acid
+- Bacterial markers: Formaldehyde, Indole, 2-undecanone
+- Fungal markers: 3-octanone, Isobutyl acetate, Cyclohexanone
 
 ## Implementation Details
 **Data Preprocessing**
