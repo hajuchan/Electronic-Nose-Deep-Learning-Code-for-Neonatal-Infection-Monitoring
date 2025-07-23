@@ -12,9 +12,9 @@ This study develops a non-invasive electronic nose system for real-time infectio
 
 The system can distinguish between:
 
-- Gram-positive bacteria: S. aureus, S. epidermidis
-- Gram-negative bacteria: E. coli, K. pneumoniae
-- Fungi: C. albicans, C. glabrata, C. parapsilosis
+- **Gram-positive bacteria**: S. aureus, S. epidermidis
+- **Gram-negative bacteria**: E. coli, K. pneumoniae
+- **Fungi**: C. albicans, C. glabrata, C. parapsilosis
 
 ## 🏆 Key Results
 
