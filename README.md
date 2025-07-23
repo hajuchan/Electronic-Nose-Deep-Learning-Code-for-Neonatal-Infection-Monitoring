@@ -7,7 +7,7 @@ This repository contains the deep learning implementation for the research paper
 Published in: https://doi.org/10.1016/j.snb.2025.138376
 
 
-## 🔬 Research Overview
+## Research Overview
 This study develops a non-invasive electronic nose system for real-time infection monitoring in neonatal incubators by identifying pathogens through microbial volatile organic compounds (mVOCs). 
 
 The system can distinguish between:
@@ -16,13 +16,13 @@ The system can distinguish between:
 - **Gram-negative bacteria**: E. coli, K. pneumoniae
 - **Fungi**: C. albicans, C. glabrata, C. parapsilosis
 
-## 🏆 Key Results
+## Key Results
 
 97% accuracy in laboratory conditions using LSTM model
 85.4% accuracy in real-size incubator (155L) testing
 Superior performance over traditional diagnostic methods
 
-## 🧠 Deep Learning Models
+## Deep Learning Models
 **Primary Models**
 
 - LSTM (Long Short-Term Memory) - Best performance (97% accuracy)
@@ -36,11 +36,11 @@ Superior performance over traditional diagnostic methods
 - Naive Bayes
 - Logistic Regression
 
-## Transfer Learning
+**Transfer Learning**
 
 TL-ResNet50 - Pre-trained on ImageNet, fine-tuned for pathogen classification
 
-## 📊 Dataset Specifications
+## Dataset Specifications
 **Sensor Array**
 
 9 metal oxide sensors (TGS series, MQ series)
@@ -53,7 +53,7 @@ Common to all pathogens: Ethanol, 3-methyl-1-butanol, Acetic acid
 Bacterial markers: Formaldehyde, Indole, 2-undecanone
 Fungal markers: 3-octanone, Isobutyl acetate, Cyclohexanone
 
-## 🛠 Implementation Details
+## Implementation Details
 **Data Preprocessing**
 ```
 # python Baseline correction and normalization
@@ -79,7 +79,7 @@ Optimization: Grid-search for hyperparameters
 - **AUC-ROC**: >0.95 for all pathogens
 - **R² values**: >0.80 for pathogen quantification
 
-## 🚀 Quick Start
+## Quick Start
 **Installation**
 ```
 git clone https://github.com/username/electronic-nose-neonatal-infection.git
@@ -97,7 +97,7 @@ matplotlib>=3.5.0
 seaborn>=0.11.0
 ```
 
-## 📈 Model Performance
+## Model Performance
 | Model | Precision | Recall | F1-Score | Accuracy |
 |-------|-----------|--------|----------|----------|
 | **LSTM** | **0.97** | **0.97** | **0.98** | **0.97** |
@@ -106,7 +106,7 @@ seaborn>=0.11.0
 | Logistic Regression | 0.68 | 0.68 | 0.71 | 0.68 |
 | SVM | 0.55 | 0.55 | 0.69 | 0.59 |
 
-## 🔬 Clinical Applications
+## Clinical Applications
 **Smart Incubator Integration**
 - Real-time monitoring of infection status
 - Evidence-based antibiotic prescriptions
@@ -118,7 +118,7 @@ seaborn>=0.11.0
 - Nosocomial infection early detection
 - Antimicrobial resistance mitigation
 
-## 📚 Citation
+## Citation
 ```bibtex
 @article{LEE2025138376,
 title = {Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
@@ -132,8 +132,8 @@ author = {Solpa Lee and Bum Ju Ahn and Juchan Ha and Anmo J Kim and Hyun‑Kyung
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 We welcome contributions to improve the electronic nose system for neonatal infection monitoring. Please see our Contributing Guidelines for details.
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
