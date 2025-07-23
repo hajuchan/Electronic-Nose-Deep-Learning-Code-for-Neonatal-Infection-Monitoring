@@ -95,16 +95,6 @@ matplotlib>=3.5.0
 seaborn>=0.11.0
 ```
 
-**Training LSTM Model**
-```
-python training/train_lstm.py --epochs 100 --batch_size 32 --learning_rate 0.001
-```
-
-**Evaluation**
-```
-python evaluation/metrics.py --model_path models/lstm_best.h5 --test_data data/processed/test_set.pkl
-```
-
 ## 📈 Model Performance
 | Model | Precision | Recall | F1-Score | Accuracy |
 |-------|-----------|--------|----------|----------|
