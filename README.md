@@ -18,9 +18,9 @@ The system can distinguish between:
 
 ## Key Results
 
-97% accuracy in laboratory conditions using LSTM model
-85.4% accuracy in real-size incubator (155L) testing
-Superior performance over traditional diagnostic methods
+- 97% accuracy in laboratory conditions using LSTM model
+- 85.4% accuracy in real-size incubator (155L) testing
+- Superior performance over traditional diagnostic methods
 
 ## Deep Learning Models
 **Primary Models**
