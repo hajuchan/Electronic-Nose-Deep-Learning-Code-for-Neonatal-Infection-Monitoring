@@ -45,6 +45,7 @@ TL-ResNet50 - Pre-trained on ImageNet, fine-tuned for pathogen classification
 
 - 9 metal oxide sensors (TGS series, MQ series)
 - 9 mVOC chemicals for pathogen identification
+
 Time-series data with 2-second intervals over 60 seconds
 
 ## Target VOCs
