@@ -53,7 +53,7 @@ Fungal markers: 3-octanone, Isobutyl acetate, Cyclohexanone
 
 ## 🛠 Implementation Details
 **Data Preprocessing**
-```python
+```
 # python Baseline correction and normalization
 normalized_response = V / V0  # V0: baseline voltage, V: response voltage
 
@@ -79,8 +79,8 @@ Optimization: Grid-search for hyperparameters
 
 ## 🚀 Quick Start
 **Installation**
-```python
-bashgit clone https://github.com/username/electronic-nose-neonatal-infection.git
+```
+git clone https://github.com/username/electronic-nose-neonatal-infection.git
 cd electronic-nose-neonatal-infection
 pip install -r requirements.txt
 ```
@@ -96,12 +96,12 @@ seaborn>=0.11.0
 ```
 
 **Training LSTM Model**
-```bash
+```
 python training/train_lstm.py --epochs 100 --batch_size 32 --learning_rate 0.001
 ```
 
 **Evaluation**
-```bash
+```
 python evaluation/metrics.py --model_path models/lstm_best.h5 --test_data data/processed/test_set.pkl
 ```
 
