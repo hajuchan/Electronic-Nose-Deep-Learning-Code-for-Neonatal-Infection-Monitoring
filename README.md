@@ -87,22 +87,12 @@ pip install -r requirements.txt
 
 **Requirements**
 ```
-pythontensorflow>=2.8.0
+tensorflow>=2.8.0
 scikit-learn>=1.0.0
 numpy>=1.21.0
 pandas>=1.3.0
 matplotlib>=3.5.0
 seaborn>=0.11.0
-```
-
-**Training LSTM Model**
-```
-python training/train_lstm.py --epochs 100 --batch_size 32 --learning_rate 0.001
-```
-
-**Evaluation**
-```
-python evaluation/metrics.py --model_path models/lstm_best.h5 --test_data data/processed/test_set.pkl
 ```
 
 ## 📈 Model Performance
@@ -127,13 +117,16 @@ python evaluation/metrics.py --model_path models/lstm_best.h5 --test_data data/p
 - Antimicrobial resistance mitigation
 
 ## 📚 Citation
-```
-bibtex@article{lee2025microbial,
-  title={Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
-  author={Lee, Solpa and Ahn, Bum Ju and Ha, Juchan and Kim, Anmo J and Park, Hyun-Kyung and Jang, Yongwoo},
-  journal={Sensors and Actuators: B. Chemical},
-  year={2025},
-  doi={10.1016/j.snb.2025.138376}
+```bibtex
+@article{LEE2025138376,
+title = {Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
+journal = {Sensors and Actuators B: Chemical},
+pages = {138376},
+year = {2025},
+issn = {0925-4005},
+doi = {https://doi.org/10.1016/j.snb.2025.138376},
+url = {https://www.sciencedirect.com/science/article/pii/S0925400525011529},
+author = {Solpa Lee and Bum Ju Ahn and Juchan Ha and Anmo J Kim and Hyun‑Kyung Park and Yongwoo Jang}
 }
 ```
 
