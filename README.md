@@ -54,7 +54,7 @@ Fungal markers: 3-octanone, Isobutyl acetate, Cyclohexanone
 ## 🛠 Implementation Details
 **Data Preprocessing**
 ```python
-python Baseline correction and normalization
+# python Baseline correction and normalization
 normalized_response = V / V0  # V0: baseline voltage, V: response voltage
 
 # Train-test split
