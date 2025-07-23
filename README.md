@@ -117,7 +117,7 @@ seaborn>=0.11.0
 - Antimicrobial resistance mitigation
 
 ## 📚 Citation
-```
+```bibtex
 @article{LEE2025138376,
 title = {Microbial Volatile Organic Compound Fingerprints for Non-Contact and Real-Time Infection Monitoring Using Electronic Nose in Infant Incubator},
 journal = {Sensors and Actuators B: Chemical},
