@@ -134,6 +134,3 @@ author = {Solpa Lee and Bum Ju Ahn and Juchan Ha and Anmo J Kim and Hyun‑Kyung
 
 ## Contributing
 We welcome contributions to improve the electronic nose system for neonatal infection monitoring. Please see our Contributing Guidelines for details.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
