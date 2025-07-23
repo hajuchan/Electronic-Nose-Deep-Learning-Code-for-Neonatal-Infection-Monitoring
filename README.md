@@ -8,11 +8,13 @@ Published in: https://doi.org/10.1016/j.snb.2025.138376
 
 
 ## 🔬 Research Overview
-This study develops a non-invasive electronic nose system for real-time infection monitoring in neonatal incubators by identifying pathogens through microbial volatile organic compounds (mVOCs). The system can distinguish between:
+This study develops a non-invasive electronic nose system for real-time infection monitoring in neonatal incubators by identifying pathogens through microbial volatile organic compounds (mVOCs). 
 
-Gram-positive bacteria: S. aureus, S. epidermidis
-Gram-negative bacteria: E. coli, K. pneumoniae
-Fungi: C. albicans, C. glabrata, C. parapsilosis
+The system can distinguish between:
+
+- Gram-positive bacteria: S. aureus, S. epidermidis
+- Gram-negative bacteria: E. coli, K. pneumoniae
+- Fungi: C. albicans, C. glabrata, C. parapsilosis
 
 ## 🏆 Key Results
 
